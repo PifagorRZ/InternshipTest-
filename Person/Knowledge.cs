@@ -6,7 +6,7 @@ namespace InternshipTest
 
         public Knowledge(int level)
         {
-            this.Level = level;
+            Level = level;
         }
     }
 }
