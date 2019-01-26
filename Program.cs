@@ -28,7 +28,6 @@ namespace InternshipTest
             Internship internship = new Internship("Interlink");
             //сюда можно передвать любой список студентов, даже з бд или файла
             internship.AddStudents(university.students);
-            internship.AddStudents(university.students);
 
             Console.WriteLine("List of internship's students:");
             Console.WriteLine(internship.GetStudents());

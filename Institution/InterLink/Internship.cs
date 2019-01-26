@@ -32,6 +32,8 @@ namespace InternshipTest.Institution.InterLink
             return internNames;
         }
 
+        //¬озможно реализаци€ не сама€ лучша€, и тут можно были сделать все через LINQ (который € не знаю) в 1 строчку,
+        //но зато работает)) а то € уже привык к JS, и теперь C# выгр€дит как-то странно)
         private List<Student> GetStudentsWithGoodKnowledge(List<Student> students)
         {
             int averageValue = 0;
